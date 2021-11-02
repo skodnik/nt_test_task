@@ -45,6 +45,8 @@ function storeOrder(
 
     echo 'Step 4: Store an order' . PHP_EOL;
     if (key_exists('message', $responseSecondArray)) {
+//        Store order in DB function
+
         echo 'Result: Order stored successfully with barcode: ' . $barcode . PHP_EOL;
 
         exit();
